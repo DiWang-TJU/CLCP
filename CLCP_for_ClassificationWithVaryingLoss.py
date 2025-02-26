@@ -14,7 +14,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier
 
 # whether to collect results from scratch
-collect_results_from_scratch = False
+collect_results_from_scratch = True
 
 if collect_results_from_scratch:
     np.random.seed(66)
